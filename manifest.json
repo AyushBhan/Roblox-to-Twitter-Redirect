@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Roblox to Twitter Redirect",
+  "version": "1.0",
+  "description": "Redirects from roblox.com to twitter.com.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.roblox.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
